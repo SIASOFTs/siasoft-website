@@ -1,0 +1,6 @@
+@mixin cssReseting{
+    margin: 0;
+}
+*{
+    @include cssReseting;
+}
